@@ -1,0 +1,41 @@
+.cross{
+    color: lightslategray;
+    text-decoration: line-through;
+}
+.not-display{
+    display: none;
+}
+ul{
+    list-style: none;
+    border: 1px solid antiquewhite;
+    border-radius: 15px 15px 0 0;
+    box-sizing: border-box;
+    padding:5px 10px;
+    margin-top: 20px;
+}
+
+ul li{
+    margin-bottom: 5px;
+}
+body{
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+button {
+    width: 100px;
+    align-self: center;
+    border-radius: 10px;
+}
+#add{
+    width: 200px;
+}
+#add-content{
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
